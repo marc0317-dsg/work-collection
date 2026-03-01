@@ -3,33 +3,31 @@ import { Homework } from '../interfaces';
 export const homeworkData: Homework[] = [
   {
     id: 'hw-001',
-    title: '数据结构与算法课程设计',
-    description: '实现一个基于二叉搜索树的图书管理系统，支持添加、删除、查找图书',
-    course: '数据结构',
-    semester: '2024春季',
-    year: 2024,
-    tags: ['数据结构', '算法', 'TypeScript', '二叉树'],
-    difficulty: 'advanced',
+    title: '个人作业集web网站',
+    description: '展示个人作品集',
+    course: 'web开发',
+    semester: '202602',
+    year: 2026,
+    tags: ['Vue','前端'],
+    difficulty: 'beginner',
     date: '2024-05-20',
-    content: `# 二叉搜索树图书管理系统
+    content: `# 个人作业集web网站
 
 ## 项目概述
-本项目使用 TypeScript 实现了一个基于二叉搜索树的图书管理系统，支持高效的图书信息管理。
+本项目基于Claude使用 vue 实现了一个个人作业集web网页。
 
 ## 主要功能
-- 添加图书：支持插入新图书信息
-- 删除图书：根据书名删除指定图书
-- 查找图书：快速检索图书信息
-- 遍历输出：支持前序、中序、后序遍历
+- 添加作品：支持插入新作品
+- 查找作品：github链接展示作品详情
+
 
 ## 技术实现
-- 使用递归和迭代两种方式实现二叉搜索树操作
-- 包含完整的类型定义和错误处理
-- 时间复杂度：查找、插入、删除均为 O(log n)
+- Vue 3 + TypeScript
+
 
 ## 项目链接
-[查看源码](https://github.com/example/books-bst)`,
-    githubUrl: 'https://github.com/example/books-bst'
+[查看源码](https://github.com/marc0317-dsg/work-collection/tree/master/homework-collection)`,
+    githubUrl: 'https://github.com/marc0317-dsg/work-collection/tree/master/homework-collection'
   },
   {
     id: 'hw-002',
